@@ -75,7 +75,7 @@ For example, with the same ion at a lower energy, 4.2keV:
     
 should give you, where only the black areas are stable (delta-1<0):
 
-.. figure:: _static/stab42.png
+.. figure:: doc/source/_static/stab42.png
    :align: center
    :width: 500
 
@@ -99,7 +99,7 @@ class **movie**:
     # and don't forget to clean the data:
     >>> mov.clean()
 
-.. figure:: _static/movie.gif
+.. figure:: doc/source/_static/movie.gif
    :align: center
    :width: 500
    
@@ -121,7 +121,7 @@ Since synchronization is beleived to obey an Hill's equation, we can use the sam
     # When it is finished, we can plot delta-1:
     >>> graph.plot()
 
-.. figure:: _static/sync42.png
+.. figure:: doc/source/_static/sync42.png
    :align: center
    :width: 500
 
@@ -145,7 +145,7 @@ Plotting Poincaré sections is simple and fast using pytrap:
     >>> trap.poincare(50,0.0003, 0.01, 60)
     #here we simulate 60 particles, initially located at z=0 and with r in [0.0003, 0.01] oscillating 50 times
 
-.. figure:: _static/poincare.png
+.. figure:: doc/source/_static/poincare.png
    :align: center
    :width: 500
 
@@ -159,7 +159,7 @@ To compute trajectories of ions in the EIBT use **trajectory**:
     >>> trap.trajectory(10, 0.0003, 0.003, 5)
     #here we simulate 5 particles, initially located at z=0 and with r in [0.0003, 0.003] oscillating for 10 units of time
     
-.. figure:: _static/trajectory.png
+.. figure:: doc/source/_static/trajectory.png
    :align: center
    :width: 500
    
